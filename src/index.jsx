@@ -19,7 +19,10 @@ const App = () => {
  console.log("QUERY TEXT:", queryText)
  console.log("QUERY TITLE:", queryTitle)
   return (
-    <MarkdownInput onChangeTitle={onChangeTitle} onChangeText={onChangeText} />
+    <>
+      <MarkdownInput onChangeTitle={onChangeTitle} onChangeText={onChangeText} />
+      <NoteDisplay title={queryTitle} text={queryText} />
+    </>
   );
 };
 
