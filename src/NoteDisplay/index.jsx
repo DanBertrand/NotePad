@@ -12,7 +12,7 @@ const NoteDisplay = ( {title, text} ) => {
   		return {__html: text};
 		}
 
-		function myComponent(text) {
+		const myComponent = (text) => {
   		return <div dangerouslySetInnerHTML={createMarkup(text)} />;
 		}
 
@@ -21,7 +21,7 @@ const NoteDisplay = ( {title, text} ) => {
 				<h1>{myComponent(titleContent)}</h1>
 				<div className="content">
 					{myComponent(textContent)}
-				</div>
+			</div>
 			</div>
 		)
 };
