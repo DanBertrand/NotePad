@@ -1,13 +1,16 @@
 import React from 'react';
+import './style.scss'
 
-const MarkdownInput = ( {onChangeTitle, onChangeText} ) => {
+const MarkdownInput = ( {onChangeTitle, onChangeText, handleSave} ) => {
+
+
 
 return (
-	<>
-  		<p>Markdown</p>
-		<input type="text" onChange={onChangeTitle}></input>
-  		<textarea onChange={onChangeText}></textarea>
-  	</>
+	< div className="container">
+		<input type="text" placeholder="Title" onChange={onChangeTitle}></input>
+  		<textarea placeholder="Your text ..." onChange={onChangeText}></textarea>
+		<button type="button" onClick={handleSave}>Save</button>
+  	</div>
 	 );
 };
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import Showdown from 'showdown';
+import './style.scss'
 
 const NoteDisplay = ( {title, text} ) => {
 	
@@ -16,9 +17,11 @@ const NoteDisplay = ( {title, text} ) => {
 		}
 
 		return(
-			<>
-			<div>{myComponent(titleContent)}{myComponent(textContent)}</div>
-			</>
+			<div className="displayScreen">
+				<div className="content">
+					{myComponent(titleContent)}{myComponent(textContent)}
+			</div>
+			</div>
 		)
 };
 
