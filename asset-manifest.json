@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/.github.io/NotePad/static/css/main.b41d2140.chunk.css",
+    "main.js": "/.github.io/NotePad/static/js/main.fc82f253.chunk.js",
+    "main.js.map": "/.github.io/NotePad/static/js/main.fc82f253.chunk.js.map",
+    "runtime-main.js": "/.github.io/NotePad/static/js/runtime-main.4df04762.js",
+    "runtime-main.js.map": "/.github.io/NotePad/static/js/runtime-main.4df04762.js.map",
+    "static/js/2.c4879821.chunk.js": "/.github.io/NotePad/static/js/2.c4879821.chunk.js",
+    "static/js/2.c4879821.chunk.js.map": "/.github.io/NotePad/static/js/2.c4879821.chunk.js.map",
+    "index.html": "/.github.io/NotePad/index.html",
+    "static/css/main.b41d2140.chunk.css.map": "/.github.io/NotePad/static/css/main.b41d2140.chunk.css.map",
+    "static/js/2.c4879821.chunk.js.LICENSE.txt": "/.github.io/NotePad/static/js/2.c4879821.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4df04762.js",
+    "static/js/2.c4879821.chunk.js",
+    "static/css/main.b41d2140.chunk.css",
+    "static/js/main.fc82f253.chunk.js"
+  ]
+}
