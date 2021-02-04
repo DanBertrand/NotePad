@@ -4,11 +4,14 @@ $base-color: black;
     height: 100vh;
     display: flex;
     flex-wrap: no-wrap;
+    min-width: 400px;
+    min-height: 600px;
     .menu{
         color: white;
         width: 40vh;
         background-color: $base-color;
         margin-right: 4px;
+        min-width: 200px;
     }
     .entries{
         width: 160vh;
