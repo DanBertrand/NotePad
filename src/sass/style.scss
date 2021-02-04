@@ -5,13 +5,13 @@ $base-color: black;
     display: flex;
     flex-wrap: no-wrap;
     .menu{
+        color: white;
         width: 40vh;
         background-color: $base-color;
         margin-right: 4px;
     }
     .entries{
         width: 160vh;
-        background-color: $base-color;
         display: flex;
         flex-direction: column;
         .display {

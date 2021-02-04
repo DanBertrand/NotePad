@@ -5,10 +5,12 @@
     height: 100%;
     width:100%;
     background-color: black;
+    h1{
+        color: red;
+    }
     .content{
-        height:480px;
-        overflow:auto;
         padding-left: 10px;
         padding-right: 10px;
+        background-color:black;
     }
 }

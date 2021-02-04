@@ -18,9 +18,10 @@ const NoteDisplay = ( {title, text} ) => {
 
 		return(
 			<div className="displayScreen">
+				<h1>{myComponent(titleContent)}</h1>
 				<div className="content">
-					{myComponent(titleContent)}{myComponent(textContent)}
-			</div>
+					{myComponent(textContent)}
+				</div>
 			</div>
 		)
 };
